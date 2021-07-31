@@ -45,7 +45,7 @@ export class FinalScreen extends Component {
                     <span>First Name: {this.state.userFirstname}</span><br />
                     <span>Last Name: {this.state.userLastname}</span><br />
                     <span>Email: {this.state.userEmail}</span><br />
-                    <span>Bio: {this.state.userBio}</span><br/>
+                    <span>Nick Name: {this.state.userBio}</span><br/>
                     <button className="btn btn-secondary" onClick={this.logout}>LOGOUT</button>
                 </>
             </MuiThemeProvider>

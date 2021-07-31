@@ -18,8 +18,9 @@ class PersonalDetails extends Component {
         return (
             <MuiThemeProvider>
                 <React.Fragment>
-                    <AppBar title="Personal Details" />
+                    <AppBar title="Personal Details"  />
                     <br />
+                    <h5>Step 1/2</h5>
                     <div className='form-container'>
                         <TextField
                             floatingLabelText="First Name"
@@ -34,7 +35,7 @@ class PersonalDetails extends Component {
                             className="input-fields" />
                         <br />
                         <TextField
-                            floatingLabelText="One line bio here"
+                            floatingLabelText="Nick Name"
                             onChange={handleChange('bio')}
                             defaultValue={values.bio}
                             className="input-fields" />

@@ -40,7 +40,6 @@ export class Success extends Component {
                 <>
                     <AppBar title="Login" />
                     <br />
-                    <h2>Registeration Completed</h2>
                     <h3>Login to Continue</h3><br />
                     <form autoComplete="off" onSubmit={this.handleLoginSubmit} className='form-group'>
                         <label htmlFor="email">Email</label><br />

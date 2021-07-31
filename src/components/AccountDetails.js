@@ -20,6 +20,7 @@ class AccountDetails extends Component {
                 <React.Fragment>
                     <AppBar title="Account Details" />
                     <br />
+                    <h5>Step 2/2</h5>
                     <div className='form-container'>
                         <TextField
                             type="email"
@@ -32,6 +33,7 @@ class AccountDetails extends Component {
                             type="number"
                             floatingLabelText="Phone No"
                             onChange={handleChange('Phone')}
+                            
                             defaultValue={values.Phone}
                             className="input-fields" />
                         <br />
